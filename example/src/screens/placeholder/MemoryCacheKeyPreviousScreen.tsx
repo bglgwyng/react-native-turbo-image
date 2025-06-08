@@ -9,7 +9,7 @@ const MemoryCacheKeyPreviousScreen = () => {
 
   const navigateToDetailScreen = () => {
     navigation.navigate(RouteName.MemoryCacheKey, {
-      memoryCacheKey: 'https://placedog.net/100/100?id=127',
+      memoryCacheKey: 'https://placedog.net/100/200?id=127',
     });
   };
   return (
@@ -17,14 +17,14 @@ const MemoryCacheKeyPreviousScreen = () => {
       <Pressable onPress={navigateToDetailScreen}>
         <TurboImage
           source={{
-            uri: 'https://placedog.net/100/100?id=127',
+            uri: 'https://placedog.net/100/200?id=127',
           }}
           style={styles.image}
           cachePolicy="dataCache"
         />
       </Pressable>
       <Text style={styles.text}>
-        The resolution of current image is 100 x 100. Click it and navigate to
+        The resolution of current image is 100 x 200. Click it and navigate to
         the next page
       </Text>
     </View>

@@ -17,13 +17,13 @@ const MemoryCacheKeyScreen = () => {
   return (
     <View style={styles.container}>
       <TurboImage
-        source={{ uri: 'https://placedog.net/400/400?id=127' }}
+        source={{ uri: 'https://placedog.net/400/800?id=127' }}
         placeholder={{ memoryCacheKey }}
         style={styles.image}
         cachePolicy="dataCache"
       />
       <TurboImage
-        source={{ uri: 'https://placedog.net/400/400?id=127000' }}
+        source={{ uri: 'https://placedog.net/400/800?id=127000' }}
         showPlaceholderOnFailure
         placeholder={{ memoryCacheKey }}
         style={styles.image}
